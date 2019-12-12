@@ -1,0 +1,301 @@
+
+*{
+
+  text-align:center;
+  color:black;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Cinzel', serif;
+}
+.main-list li{
+  list-style-type: none;
+  margin-top:3em;
+  font-weight:bold;
+  font-size:1em;
+}
+
+
+.main-name{
+
+  font-size:3em;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+.profile-img{
+
+  width:20em;
+  padding-left:5em;
+  margin-top:3em;
+}
+
+img{
+  width:25em;
+}
+
+p{
+  font-size:1em;
+  padding-left:10em;
+  padding-right:10em;
+  text-indent: 1em;
+  text-align:justify;
+  color: darkgray;
+}
+
+h2{
+
+  font-size:1em;
+  padding-left:2em;
+}
+
+.contact{
+
+  margin-top:6em;
+}
+
+
+.wrapper-1{
+  min-height:100vh;
+}
+
+.myfooter li{
+
+
+  list-style-type: none;
+  display:inline;
+
+  font-size:1em;
+  padding-left:2em;
+}
+
+
+
+.email{
+  margin-bottom:3em;
+}
+
+.contacts-info{
+
+  padding-right:10%;
+    border-bottom:1px solid gray;
+}
+
+.li1{
+  padding-right:15em;
+  padding-top:1em;
+}
+.li2{
+  padding-left:15em;
+  padding-top:1em;
+}
+
+
+
+
+
+@media(min-width:768px){
+
+
+
+  img{
+    width:20em;
+  }
+
+
+
+
+
+
+
+.main-list li{
+
+  display:inline;
+  padding-left:3em;
+}
+
+
+
+
+
+.profile-img{
+  float: right;
+  margin-top:0em;
+  width:20em;
+  padding-right:2em;
+  padding-left: 0em;
+
+
+
+}
+
+.p1{
+
+
+    padding-left:2em;
+}
+
+.profile-img-and-p1{
+  margin-top:4em;
+  margin-bottom:10em;
+
+}
+
+.mark-section
+{
+  float:left;
+  padding-left:2em;
+}
+
+
+
+.sear-section{
+
+  float:right;
+  padding-right:2em;
+}
+
+
+
+.trav-section{
+  float:left;
+  padding-left:2em;
+  padding-top: 1.5em;
+
+
+
+}
+.p5{
+  float:right;
+  padding-right:2em;
+}
+
+
+
+.photo-section{
+
+  float:left;
+  padding-left:2em;
+  padding-top: 1.5em
+}
+
+.p7{
+  float:right;
+  padding-right:2em;
+}
+
+p{
+  font-size: 1em;
+  padding-left:0em;
+  padding-right:0em;
+  text-indent: 0em;
+  text-align:inherit;
+  color: gray;
+  width:20em;
+
+}
+
+.p8,
+.contacts-info{
+
+  padding-left:15%;
+}
+
+
+
+}
+
+
+
+
+@media(min-width:1024px){
+
+.main-name{
+
+  font-size: 2em;
+  float:left;
+  padding-left:20%;
+}
+
+.main-headers{
+  padding-top:0em;
+}
+.profile-img-and-p1{
+  padding-top:8em;
+}
+
+.main-list{
+
+  float:right;
+  padding-right:20%;
+}
+
+.p1{
+  padding-left:20%;
+  width:20em;
+}
+.profile-img{
+  padding-right:20%;
+  width:20em;
+}
+
+img,
+p{
+  width:16em;
+}
+
+.mark-section{
+
+
+
+  float:left;
+
+  padding-left:20%;
+  padding-right:5%;
+
+}
+
+.sear-section {
+  float:left;
+
+
+}
+
+
+
+
+
+.map-section{
+
+  float:left;
+
+  padding-left:20%;
+
+}
+.cal-section{
+  padding-right:10%;
+}
+
+
+
+
+}
+
+
+.contact{
+  padding-top:10em;
+}
+.p8,
+.contacts-info{
+  font-size: 1em;
+  padding-left:37%;
+  padding-right: 40%;
+
+  text-indent: 0em;
+  text-align:inherit;
+  color: gray;
+  width:20em;
+
+
+
+}
